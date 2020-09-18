@@ -1,0 +1,176 @@
+/* from Portfolio website- start */
+/* color stocks */
+:root {
+    --greenfromw3s: #4CAF50;
+    --matchboxcolorfromgetbootstrap: #7952b3;
+    --sienna: #a0522d;
+    --brown: #a52a2a;
+    --niceRed: #b2175b;
+    --indianred: #cd5c5c;
+    --mediumvioletred: #c71585;
+    --palevioletred: #db7093;
+    --hotpink: 	#ff69b4;
+    --darkgreen: #006400;
+    --forestgreen: 	#228b22;
+    --teal: #008080;
+    --chocolate : #d2691e;
+    --darkmagenta: #8b008b;
+    --dodgerblue: #1e90ff;
+    --royalblue: 	#4169e1;
+    --steelblue: 	#4682b4;
+    --mediumslateblue: #7b68ee;
+    --cornflowerblue : #6495ed;
+    --mediumorchid: #ba55d3;
+    --orchid: #da70d6;
+    --rebeccapurple: #663399;
+    --mediumpurple: 	#9370db;
+    --peru: #cd853f;
+    --goldenrod: #daa520;
+    --darksalmon: #e9967a;
+    --thistle: #d8bfd8;
+    --rosybrown: #bc8f8f;
+    --cornsilk : #fff8dc;
+    --tan: #D2B48C;
+    --saddlebrown: #8B4513;
+    --rosybrown: #BC8F8F;
+    --colorBrown: #e08b6c;
+    --ghostwhite: #F8F8FF;
+    --whitesmoke: #f5f5f5;
+    --floralwhite: #F8F8FF;
+    --gainsboro: #DCDCDC;
+    --lightgrey: #D3D3D3;
+    --white: #FFFFFF;
+    --black: #000000;
+    --DarkSlateGrey: #2F4F4F;
+    --dimgray: #696969;
+    --slategrey: #708090;
+    --gray: #808080;
+    --darkgrey: #a9a9a9;
+    --silver: #C0C0C0;
+    --seashell: #FFF5EE;
+    --transparentBlue: rgba(0,0,255,0.3);
+    --niceBlue: #3c1b75;
+  }
+  /* end of colors stock */
+  body {
+    font-family: 'Kalam', cursive;
+    background: #f1fffa;
+  }
+  .icon-top {
+    background: #2a9134;
+  }
+  .icon-top a {
+    color: #f1fffa;
+    font-size: 25px;
+    transition: color 1s ease-in-out 2s;
+  }
+  .icon-top a:hover {
+    color: #242424;
+  }
+  .icon-top h5 {
+    color: #242424;
+  }
+  
+/* end of Portfolio website */
+
+body {
+    color:orchid;
+}
+
+.max-height {
+    min-height: calc(100vh - 56px);
+    background: linear-gradient(yellow, red), url(img/pexels-photo-5077047.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.height {
+    min-height: 100vh;
+    background: url(img/pexels-photo-5077047.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    color: mintcream;
+    margin-top: -4rem;
+}
+
+.banner-title {
+    color: orchid;
+    font-size: larger;
+}
+.banner-title:hover {
+    color: ghostwhite;
+}
+.banner-link {
+    font-size: 1.5rem;
+    color: black;
+    border: 0.2rem solid black;
+}
+.banner-link:hover {
+    background: black;
+    color: orchid;
+}
+
+/* skills-1 */
+.skills-icon {
+    background: #242424;
+    transition: all 1s ease;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+  }
+  .skills-icon:hover {
+    background: #2a9134;
+  }
+  .skills-icon span {
+    color: #909090;
+    font-size: 100px;
+    transition: all 1s ease-in-out;
+  }
+  .skills-icon:hover span {
+    color:#f1fffa;
+    background: #2a9134;
+  }
+
+/* skills-2 */
+.skill-icon {
+    font-size: 3rem;
+    color: goldenrod;
+    background: grey;
+}
+.skill-icon:hover {
+    color:  orchid;
+}
+.skill-underline {
+    width: 4rem;
+    height: 0.3rem;
+    background: goldenrod;
+    margin: 1rem auto;
+}
+/* carousel */
+.no-padding {
+    padding: 0;
+}
+/* end of carousel */
+/* footer */
+.footer-title {
+    background-color: black;
+}
+.footer-contact {
+    background-color: dimgray;
+}
+.footer-contact:hover {
+    background-color: gray;
+}
+.footer-icon {
+    font-size: 1.5rem;
+    color: ghostwhite;
+    transition: all 0.4 ease-in-out;
+}
+.footer-icon:hover {
+    color: orchid;
+}
